@@ -1,0 +1,10 @@
+GET http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d HTTP/1.1
+Host: cdn.sstatic.net
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Cookie: __cfduid=d3a325b67b5c9e9c224b8339358802d311457225522
+Range: bytes=533-
+If-Range: "a8db11bf9975d11:0"
+
+Narendra here...Narendra here...Narendra here...

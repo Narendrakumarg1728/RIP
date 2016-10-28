@@ -1,0 +1,6 @@
+Routing Information Protocol.
+
+This is Distant Vector protocol and uses Belman Ford algorithm to calculate the least cost value for all the nodes in the network.
+Each switch will run this alogorithm where the switches will communicate with only its neighbors and get the routing table available at that instant of time and update its own data by checking if the switch can reach other nodes through its neighbour with the cost lesser than the present cost presented in its routing table.
+
+This is like a wave where the routing info will move from one node to the other and it will take some time to converge to have stable value.

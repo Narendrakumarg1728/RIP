@@ -1,0 +1,16 @@
+# unix1.lt.ucsc.edu
+192.0.0.1    520   localhost    15608
+192.0.0.2    520   localhost    15609
+192.0.0.3    520   localhost    15610
+192.0.0.4    520   localhost    15611
+192.0.0.5    520   localhost    15812
+#
+# unix2.lt.ucsc.edu
+192.0.12.2   520   localhost    15613
+192.0.14.2   520   localhost    15614
+192.0.24.2   520   localhost    15615
+192.0.23.2   520   localhost    15616
+192.0.34.2   520   localhost    15617
+#
+# unix3.lt.ucsc.edu
+192.0.35.2   520   localhost    15618

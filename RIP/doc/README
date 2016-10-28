@@ -1,0 +1,36 @@
+Name: Narendra Kumar Govinda Raju
+
+List of Files:
+=============
+Folder Name: src    (This folder has all the source code files)
+             Files: rip.c: Source file RIP.
+					node.config: Virtual IP to physical IP and port mapping file.		
+					neighbor.config: Details regarding the node topology, where it will show the connetivity details with the cost associated.
+                    unp.h: Header file
+					rip.o: Object file of source file
+					All the above files are placed in src/unpv13e/proxy
+
+
+Folder Name: doc    (This folder contains all the documentation)
+             Files: README: This file which you are reading.
+                    design_doc: Document describes the design for this project.
+                    App_layer_spec: Describes the details of protocol.
+
+
+File: Makefile:     Is a configuration file which will use the make utility to build the software from its source file.
+
+
+What works:
+==========
+1. Node is able to get the details from the neighbour.config file and node.config file.
+2. Make connection to the neighbors and it can send and receive from the neighbours. 
+3. Have implemented 30 seconds timer to send and 180 seconds timeout to check if there is timeout for data receiving.
+4. Using teh belman Ford alogorith, it can calculate the least cost path in few interval of time after few iterations as expected.
+5. It will be able to find the least cost and it will be in stable state.
+6. Updating node to infinity when the node does not responds after 180 seconds of timeout which was not working in the first submission is fixed now.
+
+What doesn't work:
+====================
+1. During first couple of minutes when recvfrom is executed observing received IP (client IP) as "255.127.0.0" so, need to bring down the node for testing after around 3 minutes.
+
+
